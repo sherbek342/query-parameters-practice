@@ -14,19 +14,12 @@ def get_randomusers(n: int, gender: str) -> list:
     Returns:
         list: lsit of users
     '''
-    users = []
-    
-    i = 0
-    while len(users) != n:
-        response = requests.get(url)
-        if response.status_code == 200:
-            user = response.json()['results'][0]
-            if user['gender'] == gender:
-                users.append(user)
-        i += 1
-        
-    print(i)
-    return users
+    url = f'{url}?results={n}&gender={gender}'
+
+    response = requests.get(url)
+
+    if response.status_code == 200:
+        return response.json()['results']
 
 
 print(get_randomusers(5, 'female'))
