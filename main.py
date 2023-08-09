@@ -1,4 +1,5 @@
 import requests
+import json
 
 
 class RandomUser:
@@ -15,7 +16,14 @@ class RandomUser:
         Returns:
             list: lsit of users
         '''
-        pass
+        payload = {
+            'results': n
+        }
+        response = requests.get(url=self.url, params=payload)
+        if response.status_code == 200:
+            return response.json()['results']
+
+        return False
     
     def get_user_by_gender(self, gender: str) -> dict:
         '''return specify whether only male or only female users generated.\
@@ -93,3 +101,9 @@ class RandomUser:
             lsit: list of user data
         '''
         pass
+
+
+r = RandomUser()
+with open('users.json', 'w') as f:
+    json.dump(r.get_randomusers(5), f, indent=4)
+    

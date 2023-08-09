@@ -1,0 +1,282 @@
+[
+    {
+        "gender": "male",
+        "name": {
+            "title": "Mr",
+            "first": "William",
+            "last": "Edwards"
+        },
+        "location": {
+            "street": {
+                "number": 9964,
+                "name": "Ti Rakau Drive"
+            },
+            "city": "Invercargill",
+            "state": "Otago",
+            "country": "New Zealand",
+            "postcode": 56211,
+            "coordinates": {
+                "latitude": "48.8777",
+                "longitude": "-116.6027"
+            },
+            "timezone": {
+                "offset": "+4:00",
+                "description": "Abu Dhabi, Muscat, Baku, Tbilisi"
+            }
+        },
+        "email": "william.edwards@example.com",
+        "login": {
+            "uuid": "f29fe598-f7f0-44b5-bd5e-d1492f4bd64e",
+            "username": "goldentiger833",
+            "password": "surf",
+            "salt": "9D7arTwS",
+            "md5": "5e1193e44cd088b92904a76bb6200ab6",
+            "sha1": "748bb11fc3c45fbaf888a57ef9daff583d7db575",
+            "sha256": "2896917a9c0b750095b1e610a17de801abf619e52c70d9101b52d147ba516b2d"
+        },
+        "dob": {
+            "date": "1948-09-26T10:06:46.492Z",
+            "age": 74
+        },
+        "registered": {
+            "date": "2007-10-12T13:06:29.659Z",
+            "age": 15
+        },
+        "phone": "(192)-684-2817",
+        "cell": "(459)-574-1671",
+        "id": {
+            "name": "",
+            "value": null
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/62.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/62.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/62.jpg"
+        },
+        "nat": "NZ"
+    },
+    {
+        "gender": "female",
+        "name": {
+            "title": "Miss",
+            "first": "\u0628\u0627\u0631\u0627\u0646",
+            "last": "\u0642\u0627\u0633\u0645\u06cc"
+        },
+        "location": {
+            "street": {
+                "number": 6000,
+                "name": "\u0634\u0647\u06cc\u062f \u0634\u0648\u0627\u062e"
+            },
+            "city": "\u0633\u0646\u0646\u062f\u062c",
+            "state": "\u0647\u0631\u0645\u0632\u06af\u0627\u0646",
+            "country": "Iran",
+            "postcode": 25729,
+            "coordinates": {
+                "latitude": "-55.2663",
+                "longitude": "92.0348"
+            },
+            "timezone": {
+                "offset": "-3:00",
+                "description": "Brazil, Buenos Aires, Georgetown"
+            }
+        },
+        "email": "brn.qsmy@example.com",
+        "login": {
+            "uuid": "79f9b63a-c29a-4371-9978-b2c0f2528fab",
+            "username": "sadwolf131",
+            "password": "nick",
+            "salt": "Ua0jwlI0",
+            "md5": "492af979b7e26cb3d67eaa1f7e641f68",
+            "sha1": "f4cda62ff9c4c98df504c90f652ce8c35afa3d87",
+            "sha256": "30055ab3628547291a91abf7631fe46c4a409ed4ceb48079e562b38ac10f8a86"
+        },
+        "dob": {
+            "date": "1965-02-20T02:34:08.093Z",
+            "age": 58
+        },
+        "registered": {
+            "date": "2019-05-12T22:29:23.550Z",
+            "age": 4
+        },
+        "phone": "036-13629388",
+        "cell": "0920-307-4286",
+        "id": {
+            "name": "",
+            "value": null
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/32.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/32.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/32.jpg"
+        },
+        "nat": "IR"
+    },
+    {
+        "gender": "female",
+        "name": {
+            "title": "Mrs",
+            "first": "Ella",
+            "last": "Hanka"
+        },
+        "location": {
+            "street": {
+                "number": 9659,
+                "name": "Rotuaari"
+            },
+            "city": "Hankasalmi",
+            "state": "P\u00e4ij\u00e4t-H\u00e4me",
+            "country": "Finland",
+            "postcode": 56344,
+            "coordinates": {
+                "latitude": "80.1832",
+                "longitude": "-167.5475"
+            },
+            "timezone": {
+                "offset": "-1:00",
+                "description": "Azores, Cape Verde Islands"
+            }
+        },
+        "email": "ella.hanka@example.com",
+        "login": {
+            "uuid": "5d55a25a-4e6c-4d41-90b7-3e96b2176fb1",
+            "username": "blackcat732",
+            "password": "scratch",
+            "salt": "nJjEgBKJ",
+            "md5": "70206b06135395278adeeab70057923a",
+            "sha1": "2b118cbb4f3c2fc83a90d7fe9da51d175f1cc3bd",
+            "sha256": "afb2153a868b8ca1058ac11b490f326dea80f20d0f8246424e9197e5dc9d171e"
+        },
+        "dob": {
+            "date": "1962-10-23T23:44:13.776Z",
+            "age": 60
+        },
+        "registered": {
+            "date": "2020-07-10T13:02:30.847Z",
+            "age": 3
+        },
+        "phone": "04-452-561",
+        "cell": "048-557-58-12",
+        "id": {
+            "name": "HETU",
+            "value": "NaNNA524undefined"
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/women/63.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/63.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/63.jpg"
+        },
+        "nat": "FI"
+    },
+    {
+        "gender": "male",
+        "name": {
+            "title": "Mr",
+            "first": "Macit",
+            "last": "Ayverdi"
+        },
+        "location": {
+            "street": {
+                "number": 2137,
+                "name": "Abanoz Sk"
+            },
+            "city": "Edirne",
+            "state": "Kars",
+            "country": "Turkey",
+            "postcode": 93186,
+            "coordinates": {
+                "latitude": "15.3699",
+                "longitude": "5.3772"
+            },
+            "timezone": {
+                "offset": "+6:00",
+                "description": "Almaty, Dhaka, Colombo"
+            }
+        },
+        "email": "macit.ayverdi@example.com",
+        "login": {
+            "uuid": "39271799-c21b-45ea-9783-8b2c89c9e138",
+            "username": "silverkoala595",
+            "password": "hardrock",
+            "salt": "AEh6xzZV",
+            "md5": "4e6050ef9c799af5a1a11be704d94a21",
+            "sha1": "eb03a7b3b249503c506816ce20daaab88a04a2df",
+            "sha256": "f842685dd79b26ab2462dfa6c19851d63cc2c850ad1ddc20ec9b063d352460d8"
+        },
+        "dob": {
+            "date": "1962-02-21T05:00:16.983Z",
+            "age": 61
+        },
+        "registered": {
+            "date": "2017-02-17T11:37:11.478Z",
+            "age": 6
+        },
+        "phone": "(432)-796-3317",
+        "cell": "(862)-278-2527",
+        "id": {
+            "name": "",
+            "value": null
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/46.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/46.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/46.jpg"
+        },
+        "nat": "TR"
+    },
+    {
+        "gender": "male",
+        "name": {
+            "title": "Mr",
+            "first": "Necati",
+            "last": "Tun\u00e7eri"
+        },
+        "location": {
+            "street": {
+                "number": 5950,
+                "name": "Atat\u00fcrk Sk"
+            },
+            "city": "Bolu",
+            "state": "Ni\u011fde",
+            "country": "Turkey",
+            "postcode": 75432,
+            "coordinates": {
+                "latitude": "-37.3725",
+                "longitude": "-30.4093"
+            },
+            "timezone": {
+                "offset": "+8:00",
+                "description": "Beijing, Perth, Singapore, Hong Kong"
+            }
+        },
+        "email": "necati.tunceri@example.com",
+        "login": {
+            "uuid": "d4a2c364-7e67-41e6-adc6-c784b7654bfa",
+            "username": "redzebra347",
+            "password": "jessica",
+            "salt": "dvUKrzfJ",
+            "md5": "d75d4b55be40039818ad25336acb2bd3",
+            "sha1": "aed25c8174446bdac18583c6326ecf7e62742575",
+            "sha256": "9bcf625ec0d9bffb0481a11b46e25e9f16107109b2af6930dab1feeabd3c3215"
+        },
+        "dob": {
+            "date": "1982-11-14T14:37:31.091Z",
+            "age": 40
+        },
+        "registered": {
+            "date": "2002-05-25T00:05:54.680Z",
+            "age": 21
+        },
+        "phone": "(241)-403-9555",
+        "cell": "(421)-923-1624",
+        "id": {
+            "name": "",
+            "value": null
+        },
+        "picture": {
+            "large": "https://randomuser.me/api/portraits/men/19.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/19.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/19.jpg"
+        },
+        "nat": "TR"
+    }
+]

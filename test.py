@@ -14,9 +14,12 @@ def get_randomusers(n: int, gender: str) -> list:
     Returns:
         list: lsit of users
     '''
-    url = f'{url}?results={n}&gender={gender}'
+    payload = {
+        'results': n,
+        'gender': gender
+    }
 
-    response = requests.get(url)
+    response = requests.get(url, params=payload)
 
     if response.status_code == 200:
         return response.json()['results']
