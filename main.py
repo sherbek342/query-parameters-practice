@@ -35,7 +35,13 @@ class RandomUser:
         Returns:
             str: user
         '''
-        pass
+        payload = {
+            'gender':gender
+        }
+        response = requests.get(url=self.url, params=payload)
+        if response.status_code == 200:
+            return response.json()['results']
+        return False
     
     def get_users_by_gender(self, n: int, gender: str) -> dict:
         '''return specify whether only male or only female users generated.\
@@ -48,7 +54,14 @@ class RandomUser:
         Returns:
             str: user
         '''
-        pass
+        payload = {
+            'gender':gender,
+            'results': n
+        }
+        response = requests.get(url=self.url, params=payload)
+        if response.status_code == 200:
+            return response.json()['results']
+        return False
     
     def get_user_by_nat(self, nat: str) -> dict:
         '''get user nationality from randomuser
@@ -59,7 +72,14 @@ class RandomUser:
         Returns:
             str: user
         '''
-        pass
+        payload = {
+            'nat':nat
+        }
+        response = requests.get(url=self.url, params=payload)
+        if response.status_code == 200:
+            return response.json()['results']
+        return False
+    
     
     def get_users_by_nat(self, n: int, nat: str) -> dict:
         '''get user nationality from randomuser
@@ -71,7 +91,15 @@ class RandomUser:
         Returns:
             str: user
         '''
-        pass
+        payload = {
+            'nat':nat,
+            'results':n
+        }
+        response = requests.get(url=self.url, params=payload)
+        if response.status_code == 200:
+            return response.json()['results']
+        return False
+    
     
     def get_specific_field(self, field: str) -> dict:
         '''get user specific field from randomuser
@@ -85,7 +113,17 @@ class RandomUser:
         Returns:
             dict: data
         '''
-        pass
+        payload = {
+            field:field
+            
+        }
+        response = requests.get(url=self.url, params=payload)
+        if response.status_code == 200:
+            return {
+                field:response.json()['results'][0][field]
+            }
+        return False
+    
     
     def get_users_specific_field(self, n: int, field: str) -> list:
         '''get user specific field from randomuser
@@ -100,10 +138,25 @@ class RandomUser:
         Returns:
             lsit: list of user data
         '''
-        pass
+        payload = {
+            field:field,
+            field:n
+            
+        }
+        list = []
+        while len(list) < n:
+            response = requests.get(url=self.url, params=payload)
+            if response.status_code == 200:
+                
+                list.append( {
+                    field:response.json()['results'][0][field]
+                })
+            
+        return list
+    
 
 
 r = RandomUser()
 with open('users.json', 'w') as f:
-    json.dump(r.get_randomusers(5), f, indent=4)
+    json.dump(r.get_users_specific_field(4,'name'), f, indent=4)
     
